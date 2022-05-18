@@ -1,0 +1,41 @@
+*
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+</style>
+
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;}
+body
+{
+	background-image: url(../img/fondo.jpg) ;
+}
+.logo1{
+float: right;
+top: auto;
+}
+
+{
+	border-image: url(../img/logo.png);
+	
+}
+#contenedor{
+
+	width: 400px
+	margin-left: auto;
+	margin-right: auto;
+	padding: 50px;
+	margin: 50px;
+	border-style:solid ;
+	border-color:#207FD3 ;
+	border-radius:25px ;
+	background-color: #13548E;
+}
+
+.caja{
+right: auto;
+float: right;
+
+
+}

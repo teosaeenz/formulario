@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/estilo1.css">
+	<title>formulario</title>
+</head>
+
+<body>
+
+
+<div id="contenedor">
+
+<div id="logo">
+<div class="logo1"> 
+	<img src="img/logo.png"> 
+
+</div>
+	
+<h2>Formulario de inscripción</h2>
+
+<form method="post" action="teofilosv@hotmail.com">
+<label>Nombre:</label><br>
+<input type="text" name="nombre"required> <br>
+	<label>Contraseña:</label> <br>	
+	<input type="password" name="contra"> <br>	
+	<label>	correo electronico:</label> <br>	
+	<input type="email" name="correo"> <br>	
+	<label>Fecha de nacimiento:</label><br>
+	<input type="date" name="fecha"> <br>
+
+<label><h4>Elija una opción:</h4></label>
+<input type="radio" name="hora" value="mañana"> Turno mañana <br>
+<input type="radio" name="hora" value="tarde"> Turno tarde <br>
+<input type="radio" name="hora" value="noche"> Turno urno noche <br>
+
+<label><h4>Materias para cursar:</h4></label>
+<input type="checkbox" name="gustos" value="dj"> DJ <br>
+<input type="checkbox" name="gustos" value="vinilo"> Vinilo <br>
+<input type="checkbox" name="gustos" value="produccion musical"> Producción musical <br>
+
+<label><h4>Con que equipo queres aprender?</h4></label>
+<select>
+	<option>ADJ</option>
+	<option>Allen & Heath</option>
+	<option>Behringer</option>
+	<option>Korg</option>
+	<option>Native Instruments</option>
+	<option>Pioneer DJ</option>
+	<option>Roland</option>
+	<option>Serato</option>
+	<div>
+<br>
+
+		<div id="caja">
+			<div class="caja">
+<input type="submit" name="enviar">
+	<br>
+</div>
+
+</form>
+</body>
+</html>
